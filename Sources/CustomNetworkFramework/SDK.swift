@@ -8,9 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct SDK {
+public struct SDK {
 
-  static func doSomething() {
+  public static func doSomething() {
 
     print("Doing something..")
   }
