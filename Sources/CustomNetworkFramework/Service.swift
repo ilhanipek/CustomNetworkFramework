@@ -13,7 +13,7 @@ open class VendorBase {
   open class x {
     var y : String
 
-    init(y: String) {
+    public init(y: String) {
       self.y = y
     }
 
