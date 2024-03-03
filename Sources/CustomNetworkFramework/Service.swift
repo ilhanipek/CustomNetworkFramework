@@ -10,7 +10,7 @@ import SwiftUI
 
 open class VendorBase {
 
-  class x {
+  open class x {
     var y : String
 
     init(y: String) {
