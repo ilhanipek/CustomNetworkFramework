@@ -23,7 +23,7 @@ open class VendorBase {
   }
 }
 
-func sayHi() {
+public func sayHi() {
 
   VendorBase.x(y: "f").sayHello()
 }
