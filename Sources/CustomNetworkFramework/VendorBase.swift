@@ -9,11 +9,17 @@ import Foundation
 
 
 public class Auth {
-  var x = AuthEndPoint.customerSignIn
-  public func login() {
-    print("print \(x.baseURL)")
-    print("print \(x.path)")
-    print("print \(x.method)")
-    print("print \(x.request())")
+  public class auth {
+    var x = AuthEndPoint.customerSignIn
+
+    public init() { }
+    
+    open func login() {
+      print("print \(x.baseURL)")
+      print("print \(x.path)")
+      print("print \(x.method)")
+      print("print \(x.request())")
+    }
   }
+
 }
