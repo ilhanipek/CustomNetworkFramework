@@ -10,16 +10,17 @@ import Foundation
 
 open class Auth {
   open class auth {
-    var x = AuthEndPoint.customerSignIn
+
+    private let customerSignIn = AuthEndPoint.customerSignIn
+    private let customerSignUp = AuthEndPoint.customerSignUp
+    private let vendorSignIn = AuthEndPoint.vendorSignIn
+    private let vendorSignUp = AuthEndPoint.vendorSignUp
+    
 
     public init() { }
 
-    open func login() {
-      print("print \(x.baseURL)")
-      print("print \(x.path)")
-      print("print \(x.method)")
-      print("print \(x.request())")
-      print("sdfksdfs")
+    open func signIn(with email: String, password: String) {
+
     }
   }
 
