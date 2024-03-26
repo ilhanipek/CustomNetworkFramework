@@ -8,8 +8,8 @@
 import Foundation
 
 
-public class Auth {
-  public class auth {
+open class Auth {
+  open class auth {
     var x = AuthEndPoint.customerSignIn
 
     public init() { }
