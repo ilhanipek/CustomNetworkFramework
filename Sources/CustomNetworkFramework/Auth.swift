@@ -44,7 +44,7 @@ extension AuthEndPoint : AuthProtocol {
   }
   
   var path: String {
-
+    
     switch self {
     case .customerSignIn:
       return ""
@@ -79,13 +79,13 @@ extension AuthEndPoint : AuthProtocol {
     component.path = path
 
     let url = component.url
-
+    
     var request = URLRequest(url: url!)
 
     request.httpMethod = method.rawValue
-
+    
     if let header = header {
-
+      
       header.forEach { header in
         request.setValue(header.key, forHTTPHeaderField: header.value)
       }

@@ -17,16 +17,12 @@ open class VendorBase {
       self.y = y
     }
 
-    func sayHello() {
+    public func sayHello() {
       print(y)
     }
   }
 }
 
-public func sayHi() {
-
-  VendorBase.x(y: "f").sayHello()
-}
 
 
 
